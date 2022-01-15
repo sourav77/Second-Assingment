@@ -9,10 +9,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ba4d418e4.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4ba4d418e4.js" crossorigin="anonymous"></script>
     <style>
+        nav {
+            display: flex;
+            justify-content: right;
+            padding-bottom: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.2em;
+            margin-right: 30px;
+        }
+
+        .icon {
+            width: 40px;
+            height: 50px;
+        }
+
+        .head {
+            display: flex;
+            text-align: justify;
+
+        }
+
         body {
             font-family: 'Poppins', sans-serif;
+            margin-left: 50px;
+            margin-right: 50px;
         }
+
+        .button {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: white;
+
+            padding: 10px;
+            border-radius: 6px;
+            background-color: black;
+        }
+
+
 
         /* Extra small devices (phones, 600px and down) */
         @media only screen and (max-width: 600px) {
@@ -48,30 +88,50 @@
                 background-color: white;
             }
         }
-
-        nav a {
-            text-decoration: none;
-            color: black;
-            font-size: 1em;
-            margin-right: 30px;
-        }
     </style>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="">Home</a>
-            <a href="">Products</a>
-            <a href="">Sing up</a>
-            <a href="">Log in</a>
-            <a href="">Log in</a>
-            <a href=""><i class="fas fa-search"></i></a>
-            <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+            <span>
+                <a href="">Home</a>
+                <a href="">Product</a>
+                <a href="">Log in</a>
+                <a href="">Sing in</a>
+            </span>
+
+            <span>
+                <button class="icon"><i class="fas fa-search"></i></button>
+                <button class="icon"><i class="fas fa-cart-arrow-down"></i></button>
+            </span>
         </nav>
     </header>
     <section>
-        <h1>Influencer Products</h1>
+        <h3>Influencer Products</h3>
+    </section>
+
+    <section class="head">
+        <div>
+            <h1>
+                Digital Electronic Products for Videography
+            </h1>
+            <p>Basically for videography, the main equipment are camera, memory card, Green screen, Lights and many more
+            </p>
+            <Button class="button">Order now <i class="fas fa-arrow-right"></i></Button>
+        </div>
+        <div class="img"><img src="images/main-camera.png" alt=""></div>
+
+    </section>
+    <br><br>
+    <section>
+        <h2>Best valu products</h2>
+        <div class="courses">
+
+            <div class="courses">
+                <div class="courses-banner"><img src="images/action.png" alt=""></div>
+            </div>
+        </div>
     </section>
 </body>
 
